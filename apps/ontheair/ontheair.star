@@ -75,14 +75,6 @@ def main(config):
         if custom_text_length > 30:
             typeface = "CG-pixel-3x5-mono"
 
-        #if custom_text_length <= 6:
-        #    typeface = "10x20"
-        #elif custom_text_length > 6:
-        #    typeface = "6x13"
-        #elif custom_text_length > 18:
-        #    typeface = "tb-8"
-        #elif custom_text_length > 30:
-        #    typeface = "CG-pixel-3x5-mono"
 
         display_items.append(
             add_padding_to_child_element(
